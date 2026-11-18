@@ -15,7 +15,7 @@ Repare que a ambiguidade é real: antes ou depois do desconto, as duas leituras 
 
 ## As duas pastas
 
-### `take-1/` — pedido solto
+### `pedido-solto/`
 
 Sem testes e sem arquivo de instruções. O repositório cru.
 
@@ -27,7 +27,7 @@ o cálculo do pedido tá com problema, dá uma olhada aí
 
 O agente lê, encontra algo, muda e declara que terminou. Pode até acertar por sorte. De qualquer jeito ele parou porque achou que estava pronto, não porque provou.
 
-### `take-2/` — com a receita
+### `com-receita/`
 
 Mesma lojinha, agora com `pedido.test.js` e `CLAUDE.md`.
 
@@ -50,7 +50,7 @@ O agente roda `npm test`, vê 1 de 3 falhando, lê a regra, corrige uma linha, r
 Precisa só de Node 18 ou mais novo. Não tem dependência para instalar.
 
 ```
-cd take-2
+cd com-receita
 npm test     # 2 passando, 1 falhando
 npm start    # imprime o pedido com o frete errado
 ```
@@ -60,6 +60,8 @@ Para voltar ao estado inicial depois de deixar um agente mexer:
 ```
 git checkout .
 ```
+
+Se for tentar a primeira pasta com um agente, copie `pedido-solto` para um lugar isolado antes. Com as duas lado a lado, o agente pode achar os testes da outra e resolver com um contexto que ele não teria na vida real.
 
 ## A ideia que fica
 
