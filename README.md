@@ -67,4 +67,7 @@ Se for tentar a primeira pasta com um agente, copie `pedido-solto` para um lugar
 
 O que separa um assistente de um agente autônomo é o critério de pronto: o agente precisa saber como ele mesmo descobre que terminou. Sem isso, ele só chuta mais rápido.
 
-Palestra sobre orquestração de agentes com subagentes: https://github.com/LiviaDevolder/ratatouille-driven-development
+## Links
+
+- [Slides da palestra](https://drive.google.com/file/d/1hsVE10cwQerbRYSNA63aI8w5aR3sPHLu/view?usp=sharing)
+- [Ratatouille Driven Development](https://github.com/LiviaDevolder/ratatouille-driven-development): a palestra anterior, sobre orquestração de agentes com subagentes
